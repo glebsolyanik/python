@@ -23,7 +23,7 @@ if revenue - cost > 0:
     # запрос численности работников фирмы
 
     people = int(input("Введите чило работников: "))
-    profit_1 = "%.2f" % (profit / people)
+    profit_1 = "%.2f" % (float(profit) / people)
     print(profit_1)
 
 else:
